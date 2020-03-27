@@ -1,0 +1,6 @@
+.messages {
+  font-family: "Oswald", cursive !important;
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+}
