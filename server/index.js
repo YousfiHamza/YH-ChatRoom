@@ -30,7 +30,10 @@ io.on("connection", socket => {
 
     socket.broadcast
       .to(user.room)
-      .emit("message", { user: "admin", text: `${user.name}, has joined !` });
+      .emit("message", {
+        user: "admin",
+        text: `${user.name}, has just joined !`
+      });
 
     io.to(user.room).emit("roomData", {
       room: user.room,
