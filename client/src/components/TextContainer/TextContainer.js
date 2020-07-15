@@ -29,7 +29,15 @@ const TextContainer = ({ users }) => (
     </div>
     {users ? (
       <div>
-        <h1>+ People currently Online :</h1>
+        <h1>
+          <span role="img" aria-label="emoji">
+            💬
+          </span>{" "}
+          People currently Online{" "}
+          <span role="img" aria-label="emoji">
+            💬
+          </span>
+        </h1>
         <div className="activeContainer">
           <h2>
             {users.map(({ name }) => (

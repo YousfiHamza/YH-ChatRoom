@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #c93636;
+  background-color: black;
+  background-image: url("../../chatroom.png");
+  background-size: cover;
 }
 
 .container {
@@ -13,7 +15,7 @@
   border: black solid;
   background: #ffffff;
   border-radius: 8px;
-  height: 60%;
+  height: 90%;
   width: 35%;
 }
 
@@ -23,13 +25,13 @@
   }
 
   .container {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
   }
 }
 
 @media (min-width: 480px) and (max-width: 1200px) {
   .container {
-    width: 60%;
+    width: 80%;
   }
 }
