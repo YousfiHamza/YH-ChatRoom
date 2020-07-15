@@ -10,7 +10,7 @@ You can check this App now on [YH-ChatRoom.app](https://yh-chatroom.netlify.app/
 ## Overview :
 
 ![](client/public/chat1.png)
-![](client/public/chat1.png)
+![](client/public/chat2.png)
 
 ## Features :
 
