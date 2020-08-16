@@ -27,3 +27,5 @@ These are some of the features :
 * You can Use emojies symboles in your message, they will get translated automatically into their respective graphical form [ <3 , :) , :D , :') , 0:) , ... ] !
 
 * If there is too many messages, you can then scroll up in down to find the text you are looking for !
+
+* Coming Soon !
